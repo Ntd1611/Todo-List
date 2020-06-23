@@ -17,7 +17,8 @@ header {
 }
 
 header,
-form {
+form,
+#under {
   min-height: 20vh;
   display: flex;
   justify-content: center;
@@ -30,6 +31,15 @@ form button {
   font-size: 2rem;
   border: none;
   background: white;
+}
+
+#clear-btn {
+  padding: 1rem;
+  font-size: 3rem;
+  background: #b5c588;
+  border: none;
+  color: #ba3927;
+  letter-spacing: 0.5rem;
 }
 
 form button {
@@ -71,18 +81,42 @@ form button:hover {
 }
 
 .trash-btn,
+.edit-btn,
 .complete-btn {
-  color: white;
-  background: #0d3c55;
   border: none;
   padding: 1rem;
   cursor: pointer;
   font-size: 1rem;
 }
 
+.trash-btn {
+  color: white;
+  background: #ba3927;
+}
+
+.trash-btn:hover {
+  background: white;
+  color: #ba3927;
+}
+
 .complete-btn {
   background: #eed369;
   color: #373c3e;
+}
+
+.complete-btn:hover {
+  background: #373c3e;
+  color: #eed369;
+}
+
+.edit-btn {
+  background: #0d3c55;
+  color: white;
+}
+
+.edit-btn:hover {
+  background: white;
+  color: #0d3c55;
 }
 
 .todo-item {
@@ -140,4 +174,24 @@ select {
 .select:hover::after {
   background: #0d3c55;
   color: white;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+}
+
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
+
+/* Set width to make card deck cards 100% width */
+@media (max-width: 950px) {
 }
