@@ -12,7 +12,7 @@ body {
 }
 
 header {
-  font-size: 1.5rem;
+  font-size: 2rem;
   color: #0d3c55;
 }
 
@@ -35,11 +35,12 @@ form button {
 
 #clear-btn {
   padding: 1rem;
-  font-size: 3rem;
+  font-size: 2rem;
   background: #b5c588;
-  border: none;
+
   color: #ba3927;
   letter-spacing: 0.5rem;
+  border-radius: 1rem;
 }
 
 form button {
